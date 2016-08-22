@@ -1,0 +1,36 @@
+PMF是Project management framework的缩写。
+PM是Project management的缩写。
+
+	
+	
+--parent
+	|-- pom.xml(pom)
+	|-- API
+		|-- PMF-Comm-api(common)
+			PMF-Hibernate-api,(SSH2)
+				|-- pom.xml(jar)
+			PMF-Mybatis-api,(SpringMVC+Mybatits)
+				|-- pom.xml(jar)
+	|-- APP
+		|--	PMF-Android
+				|-- pom.xml(jar)
+			PMF-ios(Ios)
+				|-- pom.xml(jar)
+	|-- Library
+		|-- PMF-Comm_resources
+				|-- pom.xml(jar)
+			PMF-Mysql_resources
+				|-- pom.xml(jar)
+			PMF-Sqlserver_resources
+				|-- pom.xml(jar)
+			PMF-Oracle_resources
+				|-- pom.xml(jar)
+	|-- PMF-Chat_client
+		|-- pom.xml(jar)
+	|-- PMF-WechatPlatform
+		|-- pom.xml(jar)
+	|-- PMF-PM
+		|--this is a web project.
+			|-- pom.xml(war)
+		|--another one.
+		|--...
