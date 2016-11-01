@@ -16,7 +16,7 @@ PM是Project management的缩写。
 				|-- pom.xml(jar)
 			PMF-ios(Ios)
 				|-- pom.xml(jar)
-	|-- Library
+	|-- Libraries
 		|-- PMF-Comm_resources
 				|-- pom.xml(jar)
 			PMF-Mysql_resources

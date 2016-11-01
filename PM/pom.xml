@@ -1,33 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>PMF</groupId>
-  	<artifactId>PMF</artifactId>
+	<groupId>PM</groupId>
+  	<artifactId>PMF/PM</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   	<packaging>pom</packaging>
-  	<name>PMF</name>
+  	<name>PM</name>
   
 	<modules>
-	  	<module>API/PMF-Comm-api</module>
-	  	<module>API/PMF-Hibernate-api</module>
-	  	<module>API/PMF-Mybaits-api</module>
-	  	
-	  	<module>APP/PMF-Android/</module>
-	  	<module>APP/PMF-Ios</module>
-	  	
-	  	<module>Library/PMF-Comm_resources</module>
-	  	<module>Library/PMF-Mysql_resources</module>
-	  	<module>Library/PMF-Sqlserver_resources</module>
-	  	<module>Library/PMF-Oracle_resources</module>
-	  	
-	  	<module>PMF-Chat_client</module>
-	  	<module>PMF-WechatPlatform</module>
-	  	
-	  	<!-- Any construction of a project start -->
-	  	<module>PM/PMF-OA</module>
+	  	<module>PM-OAM</module>//OA系统的管理
 	</modules>
   
  	<build>
-		<finalName>PMF</finalName>
+		<finalName>PM-OA</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -54,20 +38,12 @@
   
 	<dependencyManagement>
 		<dependencies>
-			<!-- API start -->
 			<dependency>
-				<groupId>API</groupId>
-				<artifactId>PMF-Comm-api</artifactId>
+				<groupId>PM-OAM</groupId>
+				<artifactId>PM-OAM</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
-			<dependency>
-				<groupId>API</groupId>
-				<artifactId>PMF-Hibernate-api</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
-			<!-- API end -->
 
-			
   		</dependencies>
 	</dependencyManagement>
 </project>

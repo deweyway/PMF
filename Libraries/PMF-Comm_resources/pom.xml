@@ -1,17 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>API</groupId>
-    <artifactId>PMF/API</artifactId>
+    <groupId>Libraries</groupId>
+    <artifactId>PMF/Libraries</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  <packaging>jar</packaging>
-  <artifactId>PMF-Hibernate-api</artifactId>
-  <name>hibernate</name>
-  <description>PMF-Hibernate-api</description>
-  <url>http://maven.apache.org</url>
-	<properties>
+  <artifactId>PMF-Comm_resources</artifactId>
+  <name>PMF-Comm_resources</name>
+  <description>PMF-Comm_resources</description>
+  	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+  	<groupId>PMF-Comm_resources</groupId>
 </project>
